@@ -1,16 +1,16 @@
 {
-    "manifest_version": 3,
-    "name": "Auto Scroll",
-    "version": "1.0",
-    "description": "Auto-scrolls pages with adjustable speed",
-    "permissions": ["activeTab"],
-    "action": {
-      "default_popup": "popup.html"
-    },
-    "content_scripts": [
-      {
-        "matches": ["<all_urls>"],
-        "js": ["content.js"]
-      }
-    ]
-  }
+  "manifest_version": 3,
+  "name": "Auto Scroll",
+  "version": "1.0",
+  "description": "Auto-scrolls pages with adjustable speed",
+  "permissions": ["activeTab", "storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
