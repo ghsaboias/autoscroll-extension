@@ -7,7 +7,6 @@ A Chrome extension that provides automatic scrolling functionality for web pages
 - Customizable scrolling speed
 - Easy-to-use popup interface
 - Start/stop scrolling control
-- Works on any web page
 
 ## Installation
 
