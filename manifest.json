@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Auto Scroll",
+  "name": "Scroll Auto",
   "version": "1.0",
   "description": "Auto-scrolls pages with adjustable speed",
   "permissions": ["activeTab", "storage"],
